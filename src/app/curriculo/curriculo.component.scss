@@ -1,0 +1,269 @@
+.container{
+    width: 100%; 
+    height: 500px;  
+}
+.card{
+    position: absolute;
+    width: 100%;
+    height: 480px;
+}
+.overlay{
+    position: absolute;
+    background-color: rgb(var(--color_19));
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0!important;
+    margin: 0!important;
+    opacity: 0.25;
+    background-color: rgb(var(--color_19));
+    z-index: 1;
+}
+.about{
+    margin: 0 20%;
+}
+.card-info{
+    width: 100%;
+    padding: 100px 0 50px 0;
+    background-color: rgb(230,230,230,0.5);
+}
+.data-info{
+    padding: 0 30px;
+    text-align: center;
+}
+.card-exp{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: rgb(255,255,255,1);
+}
+.data-info-exp{
+    padding: 0 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.exp-title{
+    color: black;
+    font-size: 18px;
+}
+
+.card-degree{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: rgb(230,230,230,0.5);
+}
+.data-info-degree{
+    padding: 0 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.degree-list{
+    list-style: none;
+}
+
+.f-bold{
+    font-weight: bold;
+}
+
+.rodape{
+    color: white;
+    background-color: rgb(var(--color_19));
+}
+
+.color-primary{
+    color: rgb(var(--color_19));
+}
+
+@media screen and (max-width: 4000px) {
+    .container{
+        width: 100%; 
+        height: 450px;  
+    }
+    .about{
+        margin: 0 20%;
+    }
+    .curriculumBox{
+        color: white;
+        position: absolute;
+        border: 1px solid black;
+        width: 49%;
+        height: 410px;
+        z-index: 55;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 2499px) {
+    .container{
+        width: 100%; 
+        height: 410px;  
+    }
+    .about{
+        margin: 0 20%;
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 50%;
+        height: 350px;
+        z-index: 55;
+        margin-top: 5.5%;
+    }
+}
+
+@media screen and (max-width: 1980px) {
+    .container{
+        width: 100%; 
+        height: 480px;  
+    }
+    .about{
+        margin: 0 20%;
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 50%;
+        height: 350px;
+        z-index: 55;
+        margin-top: 9.5%;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .container{
+        width: 100%; 
+        height: 420px;  
+    }
+    .about{
+        margin: 0 20%;
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 50%;
+        height: 410px;
+        z-index: 55;
+        margin-top: 5%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .about{
+        margin: 0 20%;
+    }
+    .container{
+        width: 100%; 
+        height: 440px;  
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 60%;
+        height: 380px;
+        z-index: 55;
+        margin-top: 11%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        width: 100%; 
+        height: 360px;  
+    }
+    .about{
+        margin: 0 10%;
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 80%;
+        height: 380px;
+        z-index: 55;
+        margin-top: 4.8%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container{
+        width: 100%; 
+        height: 360px;  
+    }
+    .about{
+        margin: 0 20%;
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 80%;
+        height: 380px;
+        z-index: 55;
+        margin-top: 20%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        width: 100%; 
+        height: 280px;  
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 80%;
+        height: 270px;
+        z-index: 55;
+        margin-top: 10%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 273px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .container{
+        width: 100%; 
+        height: 260px;  
+    }
+    .curriculumBox{
+        position: absolute;
+        border: 1px solid white;
+        width: 80%;
+        height: 270px;
+        z-index: 55;
+        margin-top: 10%;
+    }
+    .card{
+        position: absolute;
+        width: 100%;
+        height: 273px;
+    }
+}
+
+

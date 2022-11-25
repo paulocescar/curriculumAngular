@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 0 20px 0;
+}
+
+.pad-left{
+    padding-left: 40px;
+}
+
+.fontTitle{
+    font: var(--fnt,var(--font_5));
+    color: var(--color,rgb(var(--txt,var(--color_19))));
+    transition: var(--trans,color .4s ease 0s);
+    white-space: nowrap;
+}
+
+.fontTitle:hover{
+    font: var(--fnt,var(--font_5));
+    color: var(--color,rgb(var(--txt,var(--color_10))));
+    cursor: pointer;
+}

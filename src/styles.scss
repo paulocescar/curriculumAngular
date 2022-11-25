@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --color_0: 255,255,255;
+    --color_27: 242,195,127;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_28: 235,145,12;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 241,241,241;
+    --color_13: 176,176,176;
+    --color_14: 96,94,94;
+    --color_15: 47,46,46;
+    --color_16: 174,180,212;
+    --color_17: 129,135,169;
+    --color_18: 81,88,126;
+    --color_29: 157,97,8;
+    --color_19: 24,33,83;
+    --color_20: 12,16,41;
+    --color_21: 181,210,235;
+    --color_22: 141,180,214;
+    --color_23: 62,132,194;
+    --color_24: 41,88,129;
+    --color_25: 21,44,65;
+    --color_30: 78,48,4;
+    --color_31: 177,241,206;
+    --color_32: 137,228,178;
+    --color_33: 43,214,120;
+    --color_34: 29,143,80;
+    --color_35: 14,71,40;
+    --font_0: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 25px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_3: normal normal normal 60px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_4: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_5: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    --font_6: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    --font_7: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_8: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_9: normal normal normal 12px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    --minViewportSize: 320;
+    --color_26: 248,217,170;
+    --maxViewportSize: 1920;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
